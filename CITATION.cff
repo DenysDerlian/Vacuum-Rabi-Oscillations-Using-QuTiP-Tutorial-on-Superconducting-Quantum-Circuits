@@ -28,8 +28,8 @@ authors:
     email: "andrejck@ita.br"
     affiliation: "Departamento de Fisica, Instituto Tecnológico de Aeronáutica, São José dos Campos, São Paulo, Brasil"
 
-repository-code: "[GitHub/GitLab/Zenodo URL]"
-url: "[Project Website URL]"
+repository-code: "https://doi.org/10.5281/zenodo.17429034"
+doi: "10.5281/zenodo.17429034"
 license: MIT
 version: 1.0.0
 date-released: "2025-10-23"

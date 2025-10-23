@@ -1,5 +1,7 @@
 # Vacuum Rabi Oscillations Using QuTiP: Computational Supplement
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17429034.svg)](https://doi.org/10.5281/zenodo.17429034)
+
 **Associated Publication:** *Tutorial on Superconducting Quantum Circuits: From Basics to Applications*
 
 ---
@@ -202,7 +204,8 @@ For the computational supplement specifically:
   title={Vacuum Rabi Oscillations Using QuTiP: Computational Supplement},
   author={Brito, Denys Derlian Carvalho and Valadares, Fernando and Chaves, Andr{\'e} Jorge Carvalho},
   year={2025},
-  howpublished={\url{[Repository URL]}},
+  howpublished={\url{https://doi.org/10.5281/zenodo.17429034}},
+  doi={10.5281/zenodo.17429034},
   note={Computational supplement to: Tutorial on Superconducting Quantum Circuits}
 }
 ```
