@@ -1,0 +1,128 @@
+# ============================================================================
+# .gitignore for Vacuum Rabi Oscillations Computational Supplement
+# ============================================================================
+
+# Jupyter Notebook
+# ============================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+# ============================================================================
+venv/
+ENV/
+env/
+.venv/
+*.venv
+
+# Conda
+# ============================================================================
+.conda/
+*.conda
+
+# Generated Outputs
+# ============================================================================
+# Keep images directory structure but ignore some outputs
+images/*.png
+images/*.jpg
+images/*.jpeg
+# Keep PDFs for publication
+# images/*.pdf
+
+# Data files (if any large datasets are generated)
+data/
+*.h5
+*.hdf5
+*.csv
+*.dat
+
+# Temporary Files
+# ============================================================================
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+# ============================================================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+
+# Testing
+# ============================================================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Documentation builds
+# ============================================================================
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# OS-specific
+# ============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Logs
+# ============================================================================
+*.log
+logs/
+
+# QuTiP specific
+# ============================================================================
+# QuTiP may cache some calculations
+.qutip-cache/
+
+# Keep these files
+# ============================================================================
+!.gitignore
+!README.md
+!LICENSE
+!CITATION.cff
+!requirements.txt
+!environment.yml
+!*.ipynb

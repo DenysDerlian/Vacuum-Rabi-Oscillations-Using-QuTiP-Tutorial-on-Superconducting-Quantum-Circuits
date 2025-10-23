@@ -1,0 +1,38 @@
+MIT License
+
+Copyright (c) 2025 Denys Derlian Carvalho Brito, Fernando Valadares, André Jorge Carvalho Chaves
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+CITATION REQUIREMENT:
+
+If you use this code in your research, please cite the associated publication:
+
+Denys Derlian Carvalho Brito, Fernando Valadares, and André Jorge Carvalho Chaves,
+"Tutorial on Superconducting Quantum Circuits: From Basics to Applications", 
+Brazilian Journal of Physics, Special Issue: 100 years of Quantum Mechanics (2025).
+DOI: [To be assigned upon publication]
+
+And optionally cite this computational supplement:
+
+Denys Derlian Carvalho Brito, Fernando Valadares, and André Jorge Carvalho Chaves,
+"Vacuum Rabi Oscillations Using QuTiP: Computational Supplement" (2025).
+Available at: [Repository URL]

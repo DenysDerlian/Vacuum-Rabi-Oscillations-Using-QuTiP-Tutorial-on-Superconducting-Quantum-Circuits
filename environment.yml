@@ -1,0 +1,65 @@
+# ============================================================================
+# Conda Environment for Vacuum Rabi Oscillations Simulation
+# ============================================================================
+#
+# This file defines a complete Conda environment for reproducible execution.
+#
+# Create environment:
+#   conda env create -f environment.yml
+#
+# Activate environment:
+#   conda activate rabi-oscillations
+#
+# Update environment:
+#   conda env update -f environment.yml --prune
+#
+# Remove environment:
+#   conda env remove -n rabi-oscillations
+#
+# ============================================================================
+
+name: rabi-oscillations
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python version
+  - python>=3.8,<3.12
+
+  # Core scientific computing
+  - numpy>=1.21.0,<2.0.0
+  - scipy>=1.7.0,<2.0.0
+  
+  # Quantum mechanics simulation
+  - qutip>=4.7.0,<5.0.0
+  
+  # Visualization
+  - matplotlib>=3.5.0,<4.0.0
+  
+  # Jupyter environment
+  - jupyter>=1.0.0
+  - notebook>=6.4.0
+  - ipython>=7.30.0
+  - ipykernel>=6.6.0
+  
+  # Optional performance libraries
+  # - numba>=0.55.0
+  # - cython>=0.29.0
+  
+  # Utilities
+  - pip
+  
+  # Additional pip-only packages (if any)
+  # - pip:
+  #   - some-pip-only-package==1.0.0
+
+# ============================================================================
+# Environment Information
+# ============================================================================
+# This environment provides all dependencies for running:
+#   Vacuum_Rabi_Oscillations_Using_QTip.ipynb
+#
+# Associated with: Tutorial on Superconducting Quantum Circuits
+# ============================================================================

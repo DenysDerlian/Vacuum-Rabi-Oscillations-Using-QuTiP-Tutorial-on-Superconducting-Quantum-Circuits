@@ -1,0 +1,78 @@
+# Citation File Format (CFF) for this computational supplement
+# See: https://citation-file-format.github.io/
+
+cff-version: 1.2.0
+message: "If you use this software, please cite both the paper and the software."
+type: software
+title: "Vacuum Rabi Oscillations Using QuTiP: Computational Supplement"
+abstract: >
+  Computational supplement providing detailed implementations and extended 
+  analysis of vacuum Rabi oscillations in transmon-resonator systems using 
+  the QuTiP library. This code accompanies the article "Tutorial on 
+  Superconducting Quantum Circuits: From Basics to Applications".
+
+authors:
+  - family-names: "Carvalho Brito"
+    given-names: "Denys Derlian"
+    orcid: "https://orcid.org/0009-0007-1669-0340"
+    email: "derlian@ita.com"
+    affiliation: "Departamento de Fisica, Instituto Tecnológico de Aeronáutica, São José dos Campos, São Paulo, Brasil"
+  - family-names: "Valadares"
+    given-names: "Fernando"
+    orcid: "https://orcid.org/0000-0002-7961-2215"
+    email: "fernando.valadares@u.nus.edu"
+    affiliation: "Centre for Quantum Technologies, National University of Singapore, Singapore"
+  - family-names: "Chaves"
+    given-names: "André Jorge Carvalho"
+    orcid: "https://orcid.org/0000-0003-1381-8568"
+    email: "andrejck@ita.br"
+    affiliation: "Departamento de Fisica, Instituto Tecnológico de Aeronáutica, São José dos Campos, São Paulo, Brasil"
+
+repository-code: "[GitHub/GitLab/Zenodo URL]"
+url: "[Project Website URL]"
+license: MIT
+version: 1.0.0
+date-released: "2025-10-23"
+
+keywords:
+  - quantum computing
+  - superconducting circuits
+  - vacuum Rabi oscillations
+  - circuit QED
+  - transmon qubit
+  - QuTiP
+  - quantum simulation
+
+references:
+  - type: article
+    title: "Tutorial on Superconducting Quantum Circuits: From Basics to Applications"
+    authors:
+      - family-names: "Carvalho Brito"
+        given-names: "Denys Derlian"
+      - family-names: "Valadares"
+        given-names: "Fernando"
+      - family-names: "Chaves"
+        given-names: "André Jorge Carvalho"
+    journal: "Brazilian Journal of Physics"
+    year: 2025
+    notes: "Special Issue: 100 years of Quantum Mechanics"
+    # volume: [Volume]
+    # issue: [Issue]
+    # start: [Start Page]
+    # end: [End Page]
+    # doi: "[DOI]"  # To be added upon publication
+
+preferred-citation:
+  type: article
+  title: "Tutorial on Superconducting Quantum Circuits: From Basics to Applications"
+  authors:
+    - family-names: "Carvalho Brito"
+      given-names: "Denys Derlian"
+    - family-names: "Valadares"
+      given-names: "Fernando"
+    - family-names: "Chaves"
+      given-names: "André Jorge Carvalho"
+  journal: "Brazilian Journal of Physics"
+  year: 2025
+  notes: "Special Issue: 100 years of Quantum Mechanics"
+  # doi: "[DOI]"  # To be added upon publication
